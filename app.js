@@ -69,4 +69,4 @@ arrowFunctionTwo("My first arrow function");
 let arrowFunctionThree=(...x)=>{ //Arrow function can resive rest parameter
     console.log(x);
 }
-arrowFunctionThree("My first arrow function", "My second arrow function", "My third arrow function");
+// arrowFunctionThree("My first arrow function", "My second arrow function", "My third arrow function");
