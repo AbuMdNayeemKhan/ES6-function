@@ -57,3 +57,16 @@ let myFunThree = function(...vals){ //Anonymus function can resive rest paramete
 // console.log(myFunThree(1, 2, 3, 4, 5));
 
 //==========Arrow Function==========//
+let arrowFunction=()=>{
+    // console.log("My first arrow function");
+}
+arrowFunction();
+
+let arrowFunctionTwo=(x)=>{ //Arrow function can resive parameter
+    // console.log(x);
+}
+arrowFunctionTwo("My first arrow function");
+let arrowFunctionThree=(...x)=>{ //Arrow function can resive rest parameter
+    console.log(x);
+}
+arrowFunctionThree("My first arrow function", "My second arrow function", "My third arrow function");
